@@ -80,7 +80,7 @@ names <- paste0(1:20, '_coi_seq')
 
 setwd("/home/marcmart/pesm_genomics/_barcode/_coi/_sequences/coi_sequences")
 
-write.fasta(seqs, names , file.out = 'coi_seqs.fa', open = "w", nbchar = 60, as.string = FALSE)
+write.fasta(seqs, names , file.out = 'coi_seqs.fas', open = "w", nbchar = 60, as.string = FALSE)
 
 seqs.fasta <- unlist(seqs,use.names = TRUE)
 str(seqs.fasta)
